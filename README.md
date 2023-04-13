@@ -30,7 +30,7 @@ l = rate.NewLimiter(time.Now(),
 ```
 
 Take or drop
-```
+```go
 func (c *Conn) Write(p []byte) (int, error) {
 	if !l.Take(time.Now(), len(p)) {
 		return 0, ErrLimited
@@ -41,7 +41,7 @@ func (c *Conn) Write(p []byte) (int, error) {
 ```
 
 Borrow and wait
-```
+```go
 func (c *Conn) Write(p []byte) (int, error) {
 	delay := l.Borrow(time.Now(), len(p))
 
@@ -54,7 +54,7 @@ func (c *Conn) Write(p []byte) (int, error) {
 ```
 
 Write as much as we can
-```
+```go
 func (c *Conn) Write(p []byte) (int, error) {
 	now := time.Now()
 
