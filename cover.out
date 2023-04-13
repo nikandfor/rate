@@ -1,0 +1,19 @@
+mode: set
+github.com/nikandfor/rate/limiter.go:27.60,34.2 1 1
+github.com/nikandfor/rate/limiter.go:37.60,42.2 3 1
+github.com/nikandfor/rate/limiter.go:45.55,49.2 2 1
+github.com/nikandfor/rate/limiter.go:53.55,56.15 2 1
+github.com/nikandfor/rate/limiter.go:56.15,58.3 1 1
+github.com/nikandfor/rate/limiter.go:60.2,62.13 2 1
+github.com/nikandfor/rate/limiter.go:70.66,75.16 3 1
+github.com/nikandfor/rate/limiter.go:75.16,77.3 1 1
+github.com/nikandfor/rate/limiter.go:79.2,79.62 1 1
+github.com/nikandfor/rate/limiter.go:84.52,87.2 2 1
+github.com/nikandfor/rate/limiter.go:90.34,92.2 1 1
+github.com/nikandfor/rate/limiter.go:95.38,97.2 1 1
+github.com/nikandfor/rate/limiter.go:101.48,105.2 2 1
+github.com/nikandfor/rate/limiter.go:109.57,115.2 4 1
+github.com/nikandfor/rate/limiter.go:120.42,122.14 2 1
+github.com/nikandfor/rate/limiter.go:122.14,124.3 1 1
+github.com/nikandfor/rate/limiter.go:126.2,129.19 3 1
+github.com/nikandfor/rate/limiter.go:129.19,131.3 1 1
