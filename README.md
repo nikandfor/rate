@@ -2,7 +2,6 @@
 [![Go workflow](https://github.com/nikandfor/rate/actions/workflows/go.yml/badge.svg)](https://github.com/nikandfor/rate/actions/workflows/go.yml)
 [![CircleCI](https://circleci.com/gh/nikandfor/rate.svg?style=svg)](https://circleci.com/gh/nikandfor/rate)
 [![codecov](https://codecov.io/gh/nikandfor/rate/branch/master/graph/badge.svg)](https://codecov.io/gh/nikandfor/rate)
-[![GolangCI](https://golangci.com/badges/github.com/nikandfor/rate.svg)](https://golangci.com/r/github.com/nikandfor/rate)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nikandfor/rate)](https://goreportcard.com/report/github.com/nikandfor/rate)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/nikandfor/rate?sort=semver)
 

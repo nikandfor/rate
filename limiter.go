@@ -19,7 +19,7 @@ type (
 // Use it to limit to at most rate per second tokens with at most cap burst.
 //
 // Each operaion takes current time and updates the state as it was
-// filled up continuosly.
+// filled up continuously.
 // If time goes backwards it's ignored as it was already accounted.
 // Thus you can't take unused tokens from the past if bucket is full now.
 //
