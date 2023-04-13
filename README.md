@@ -1,4 +1,5 @@
 [![Documentation](https://pkg.go.dev/badge/github.com/nikandfor/rate)](https://pkg.go.dev/github.com/nikandfor/rate?tab=doc)
+[![Go workflow](https://github.com/nikandfor/rate/actions/workflows/go.yml/badge.svg)](https://github.com/nikandfor/rate/actions/workflows/go.yml)
 [![CircleCI](https://circleci.com/gh/nikandfor/rate.svg?style=svg)](https://circleci.com/gh/nikandfor/rate)
 [![codecov](https://codecov.io/gh/nikandfor/rate/branch/master/graph/badge.svg)](https://codecov.io/gh/nikandfor/rate)
 [![GolangCI](https://golangci.com/badges/github.com/nikandfor/rate.svg)](https://golangci.com/r/github.com/nikandfor/rate)
