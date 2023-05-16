@@ -24,13 +24,19 @@ type (
 // Thus you can't take unused tokens from the past if bucket is full now.
 //
 // Limiter is not safe to use in parallel.
-func NewLimiter(now time.Time, rate, cap float64) *Limiter {
-	return &Limiter{
+func NewLimiter(now time.Time, rate, cap float64, opts ...Option) *Limiter {
+	l := &Limiter{
 		rate: rate,
 		cap:  cap,
 		val:  cap,
 		last: now,
 	}
+
+	for _, o := range opts {
+		o.apply(l, now)
+	}
+
+	return l
 }
 
 // Update advances Limiter state and sets new rate and cap for the future operations.
@@ -106,6 +112,7 @@ func (l *Limiter) Value(now time.Time) float64 {
 
 // Set sets current limiter state.
 // It can be used to drain or fill the Limiter.
+// Returns previous value.
 func (l *Limiter) Set(now time.Time, v float64) float64 {
 	x := l.val
 	l.val = v

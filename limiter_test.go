@@ -114,3 +114,10 @@ func TestLimiterBorrow(t *testing.T) {
 	assert.Equal(t, 3*time.Second, l.Borrow(now, 4))
 	assert.Equal(t, float64(-6), l.Value(now))
 }
+
+func TestLimiterOptions(t *testing.T) {
+	now := time.Now()
+
+	l := NewLimiter(now, 2, 6, WithValue(3))
+	assert.Equal(t, float64(3), l.Value(now))
+}
