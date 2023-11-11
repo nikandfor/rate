@@ -1,4 +1,4 @@
-module github.com/nikandfor/rate
+module nikand.dev/go/rate
 
 go 1.20
 

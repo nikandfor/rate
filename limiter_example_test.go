@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/nikandfor/rate"
+	"nikand.dev/go/rate"
 )
 
 type WriterFunc func([]byte) (int, error)
